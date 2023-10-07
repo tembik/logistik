@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: salmon;
+    /* margin: 0 auto; */
+    height: 50px;
+}
+
+.logoSection{
+    /* padding-top: 15px; */
+}
+
+.logoSection a{
+    /* padding-top: 30px; */
+    text-decoration: none;
+    color: black;
+}
+
+.navSection{
+    float: right;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-flex;
+    /* margin-top: -50px; */
+    /* padding: 20px 0; */
+}
+
+.navbar ul li{
+    padding: 16px 0px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 16px 20px 14px 20px;
+}
