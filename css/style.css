@@ -1,42 +1,123 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    width: 100%;
-    background-color: salmon;
-    /* margin: 0 auto; */
-    height: 50px;
+body {
+  width: 95%;
+  margin: 0 auto;
 }
 
-.logoSection{
-    /* padding-top: 15px; */
+header {
+  width: 100%;
+  background-color: salmon;
+  height: 50px;
+  /* margin: 0 auto; */
 }
 
-.logoSection a{
-    /* padding-top: 30px; */
-    text-decoration: none;
-    color: black;
+.logoSection {
+  /* padding-top: 15px; */
+  float: left;
 }
 
-.navSection{
-    float: right;
+.logoSection a {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+.logoImg {
+  width: 200px;
+  height: 50px;
+}
+
+.navSection {
+  float: right;
+  padding-top: 15px;
 }
 
 .navbar ul {
-    list-style: none;
-    display: inline-flex;
-    /* margin-top: -50px; */
-    /* padding: 20px 0; */
+  list-style: none;
+  display: inline-flex;
 }
 
-.navbar ul li{
-    padding: 16px 0px;
+.navbar ul li {
+  padding: 0 10px;
 }
 
-.navbar ul li a{
-    text-decoration: none;
-    color: black;
-    padding: 16px 20px 14px 20px;
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  width: 100%;
+  /* background-color: black; */
+  /* height: 300px; */
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.leftContent {
+  width: 18%;
+  /* margin: 0 1%; */
+  background-color: lightgreen;
+  /* height: 200px; */
+}
+
+.rightContent {
+  width: 78%;
+  /* margin: 0 1%; */
+  background-color: lightblue;
+  /* height: 200px; */
+}
+
+.leftContentUl {
+  margin: 10px;
+}
+
+.leftContentUl li {
+  list-style: none;
+  margin: 10px;
+}
+
+.rightContentTop {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.rightContentTop h3 {
+  margin: 10px;
+}
+.rightContentTop button {
+  margin: 10px;
+}
+
+.customerTabel {
+  margin: 20px;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.customerTabel th,
+.customerTabel td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customerTabel tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customerTabel tr:hover {
+  background-color: #ddd;
+}
+
+.customerTabel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
 }
